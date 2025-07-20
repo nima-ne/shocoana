@@ -8,7 +8,7 @@ import ProductPages from './components/ProductPages'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shocoana">
       <Routes>
 
 
