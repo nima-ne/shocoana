@@ -8,14 +8,14 @@ export default function LoginF({ handleChange }) {
         <h2 className="text-center m-[40px] text-3xl text-white">login</h2>
         <div className="flex flex-col justify-center items-center gap-5 ">
           <Input
-            className="bg-black text-white w-[50%] text-center rounded-[20px] p-[15px] box-border"
+            className="bg-black text-white w-[90%] text-center rounded-[20px] p-[15px] box-border"
             type="email"
             placeholder="Enter your Email"
             name="name"
             onChange={handleChange}
           />
           <Input
-            className="bg-black text-white w-[50%] text-center rounded-[20px] p-[15px] box-border"
+            className="bg-black text-white w-[90%] text-center rounded-[20px] p-[15px] box-border"
             type="password"
             placeholder="Enter your password"
             name="lastName"
